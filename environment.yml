@@ -1,0 +1,23 @@
+name: labwise
+
+dependencies:
+  - python=3.4.5
+  - holoviews
+  - numpy
+  - pyzmq
+  - jinja2
+  - tornado
+  - jsonschema
+  - pygments
+  - notebook
+  - matplotlib
+  - lancet-ioam
+  - pandas
+  - seaborn
+  - mpld3
+  - bokeh
+  - nose
+  - networkx
+  - pip:
+    -  cyordereddict
+    -  "--editable=git+https://github.com/projectmesa/mesa#egg=mesa"
